@@ -70,14 +70,14 @@ else {
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="index.html">Home</a>
+                  <li class="active">
+                      <a href="#">Staff Authenication</a>
+                  </li>
+                    <li>
+                        <a href="index.html">Return to Site</a>
                     </li>
                     <li>
-                        <a href="products.html">Films</a>
-                    </li>
-                    <li>
-                        <a href="auth.html">Staff</a>
+                        <a href="#">FirePro AES 2.0.34r1</a>
                     </li>
                 </ul>
 
@@ -89,29 +89,15 @@ else {
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Embrace Media.</h1>
-                <p>Media is a changing industry. Adapting the bleeding edge.</p>
-                <a href="#" class="btn btn-primary btn-lg">Get Involved</a>
+              <h1>Login</h1>
+              <br>
+              <form name="login" style="margin: 5px 0px 0px 0px;">
+              <input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br><br>
+              <input type="button" value="Click to Login" class="btn btn-primary btn-lg" onclick="javascript:TheLogin(this.form)">
+              </form>
             </div>
         </div>
     </header>
-
-    <br><br><br><br><br><br>
-
-    <div style="text-align: center; margin: 0 auto; font: normal 13px arial, sans-serif;">
-    Enter your password:<br>
-    <form name="login" style="margin: 5px 0px 0px 0px;">
-    <input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br>
-    <input type="button" value="Click to Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
-    </form>
-    </div>
-
-        <!-- Copyright etc -->
-        <div class="small-print">
-        	<div class="container">
-        		<p>DaGeek Media and Design LLC. &copy; 2016</p>
-        	</div>
-        </div>
 
     </footer>
 
