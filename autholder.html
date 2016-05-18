@@ -10,13 +10,13 @@ Although you can use them, for a more unique website, replace these images with 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>DaGeek Media and Design - Home</title>
+    <title>FirePro AES 2.0.43r1</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/custombackend.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,6 +29,9 @@ Although you can use them, for a more unique website, replace these images with 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 </head>
+
+
+
 
 
 <script type="text/javascript">
@@ -49,7 +52,12 @@ else {
 </script>
 
 
-<body>
+
+
+
+</head>
+
+<body style-"background-color:lightgrey;">
 
     <!-- Navigation -->
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -64,20 +72,17 @@ else {
                 </button>
                 <a class="navbar-brand" href="#">
                 	<span class="glyphicon glyphicon-fire"></span>
-                	DaGeek Media and Design
+                	FirePro AES Backend 2.0.43r1
                 </a>
             </div>
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                  <li class="active">
-                      <a href="#">Staff Authenication</a>
-                  </li>
-                    <li>
-                        <a href="index.html">Return to Site</a>
+                    <li class="active">
+                        <a href="#">Staff Authenication</a>
                     </li>
                     <li>
-                        <a href="#">FirePro AES 2.0.34r1</a>
+                        <a href="index.html">Return to Site</a>
                     </li>
                 </ul>
 
@@ -85,34 +90,21 @@ else {
         </div><!-- /.container -->
     </nav>
 
-	<!-- Header -->
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-              <h1>Login</h1>
-              <br>
-              <form name="login" style="margin: 5px 0px 0px 0px;">
-              <input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br><br>
-              <input type="button" value="Click to Login" class="btn btn-primary btn-lg" onclick="javascript:TheLogin(this.form)">
-              </form>
-            </div>
-        </div>
-    </header>
+<br><br><br><br><br><br>
 
-    </footer>
+<div style="text-align: center; margin: 0 auto; font: normal 13px arial, sans-serif;">
+Enter your password:<br>
+<form name="login" style="margin: 5px 0px 0px 0px;">
+<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) return false;" style="width: 130px;"><br>
+<input type="button" value="Click to Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+</form>
+</div>
 
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Custom Javascript -->
-    <script src="js/custom.js"></script>
+
+<br><br><br>
 
 </body>
-
 </html>
