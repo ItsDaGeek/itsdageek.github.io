@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481657399295">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481665225442">
   <folder name="css">
-    <file name="site_global.css" crc="210419444"/>
-    <file name="index.css" crc="61170931" ref="index"/>
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="429612048" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -10,7 +10,6 @@
     <file name="museconfig.js" crc="36584860" ref="index"/>
     <file name="jquery.musemenu.js" crc="146495465" ref="index"/>
     <file name="jquery.watch.js" crc="104486786" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
     <file name="webpro.js" crc="3848665353" ref="index"/>
     <file name="form_check.php" crc="158155501" ref="index"/>
     <file name="form_throttle.php" crc="3992970984" ref="index"/>
@@ -21,7 +20,6 @@
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index"/>
     <file name="11-u1850-fr.png" crc="400549448" ref="index"/>
     <file name="thumb_up_icon_2svg.png" crc="259096989" seo="true" ref="index"/>
     <file name="phone.svg" crc="372757644" seo="true" ref="index"/>
@@ -30,5 +28,5 @@
     <file name="hclogo.svg" crc="72560969" seo="true" ref="index"/>
     <file name="hclogo_poster_.png" crc="274170630" ref="index"/>
   </folder>
-  <file name="index.html" crc="3972259077" seo="true" mt="1481657378312" redirect="true"/>
+  <file name="index.html" crc="4083243437" seo="true" mt="1481665180631" redirect="true"/>
 </manifest>
