@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481657152948">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481657399295">
   <folder name="css">
     <file name="site_global.css" crc="210419444"/>
-    <file name="index.css" crc="3850850327" ref="index"/>
+    <file name="index.css" crc="61170931" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -30,5 +30,5 @@
     <file name="hclogo.svg" crc="72560969" seo="true" ref="index"/>
     <file name="hclogo_poster_.png" crc="274170630" ref="index"/>
   </folder>
-  <file name="index.html" crc="528059627" seo="true" mt="1481657144737" redirect="true"/>
+  <file name="index.html" crc="3972259077" seo="true" mt="1481657378312" redirect="true"/>
 </manifest>
