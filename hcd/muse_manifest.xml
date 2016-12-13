@@ -1,0 +1,34 @@
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481655985894">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="3978036339" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="36584860" ref="index"/>
+    <file name="jquery.musemenu.js" crc="146495465" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
+    <file name="webpro.js" crc="3848665353" ref="index"/>
+    <file name="form_check.php" crc="158155501" ref="index"/>
+    <file name="form_throttle.php" crc="3992970984" ref="index"/>
+    <file name="form_process.php" crc="4078697226" ref="index"/>
+    <file name="form-u6455.php" crc="4238017140" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index"/>
+    <file name="11-u1850-fr.png" crc="400549448" ref="index"/>
+    <file name="thumb_up_icon_2svg.png" crc="259096989" seo="true" ref="index"/>
+    <file name="phone.svg" crc="372757644" seo="true" ref="index"/>
+    <file name="phone_poster_.png" crc="307081260" ref="index"/>
+    <file name="pencil.png" crc="4243151459" seo="true" ref="index"/>
+    <file name="hclogo.svg" crc="72560969" seo="true" ref="index"/>
+    <file name="hclogo_poster_.png" crc="4182748124" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3975636470" seo="true" mt="1481655730356" redirect="true"/>
+</manifest>
