@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481686021525">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481689051645">
   <folder name="css">
     <file name="site_global.css" crc="210419444"/>
-    <file name="index.css" crc="185621245" ref="index"/>
+    <file name="index.css" crc="494671591" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -28,6 +28,8 @@
     <file name="phonered_poster_.png" crc="4273707141" ref="index"/>
     <file name="pencilred.svg" crc="427108829" seo="true" ref="index"/>
     <file name="pencilred_poster_.png" crc="3834723763" ref="index"/>
+    <file name="hcpattern.svg" crc="498258137" ref="index"/>
+    <file name="hcpattern_poster_u8010.png" crc="455833604" ref="index"/>
   </folder>
-  <file name="index.html" crc="202938491" seo="true" mt="1481676639665" redirect="true"/>
+  <file name="index.html" crc="352496596" seo="true" mt="1481689041565" redirect="true"/>
 </manifest>
