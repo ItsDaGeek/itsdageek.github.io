@@ -53,9 +53,10 @@ $form = array(
 		'custom_U6463' => array(
 			'order' => 7,
 			'type' => 'string',
-			'label' => 'Interesting Project',
-			'required' => false,
+			'label' => 'Please tell us about an interesting project, preferably outside of class, that you created or worked on',
+			'required' => true,
 			'errors' => array(
+				'required' => 'Field \'Please tell us about an interesting project, preferably outside of class, that you created or worked on\' is required.'
 			)
 		),
 		'custom_U6512' => array(
@@ -97,28 +98,28 @@ $form = array(
 		'custom_U6613' => array(
 			'order' => 8,
 			'type' => 'string',
-			'label' => 'Message',
+			'label' => 'Please tell us about the time you most successfully hacked some (non-computer) system to your advantage. Click here for the sorts of responses we\'re looking for',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Field \'Message\' is required.'
+				'required' => 'Field \'Please tell us about the time you most successfully hacked some (non-computer) system to your advantage. Click here for the sorts of responses we\'re looking for\' is required.'
 			)
 		),
 		'custom_U6629' => array(
 			'order' => 9,
 			'type' => 'string',
-			'label' => 'Message',
+			'label' => 'What steps have you taken so far in starting your club?',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Field \'Message\' is required.'
+				'required' => 'Field \'What steps have you taken so far in starting your club?\' is required.'
 			)
 		),
 		'custom_U6645' => array(
 			'order' => 10,
 			'type' => 'string',
-			'label' => 'Message',
+			'label' => 'How did you hear about us?',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Field \'Message\' is required.'
+				'required' => 'Field \'How did you hear about us?\' is required.'
 			)
 		)
 	)
