@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481675262234">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.dageek.tech" resolutions="1x" timestamp="1481686021525">
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="434684202" ref="index"/>
+    <file name="site_global.css" crc="210419444"/>
+    <file name="index.css" crc="185621245" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -20,12 +20,14 @@
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="thumb_up_icon_2svg.png" crc="259096989" seo="true" ref="index"/>
-    <file name="phone.svg" crc="372757644" seo="true" ref="index"/>
-    <file name="phone_poster_.png" crc="307081260" ref="index"/>
-    <file name="pencil.png" crc="4243151459" seo="true" ref="index"/>
     <file name="hclogo.svg" crc="72560969" seo="true" ref="index"/>
     <file name="hclogo_poster_.png" crc="274170630" ref="index"/>
+    <file name="thumbupred.svg" crc="85734717" seo="true" ref="index"/>
+    <file name="thumbupred_poster_.png" crc="65695182" ref="index"/>
+    <file name="phonered.svg" crc="4005967066" seo="true" ref="index"/>
+    <file name="phonered_poster_.png" crc="4273707141" ref="index"/>
+    <file name="pencilred.svg" crc="427108829" seo="true" ref="index"/>
+    <file name="pencilred_poster_.png" crc="3834723763" ref="index"/>
   </folder>
-  <file name="index.html" crc="405577965" seo="true" mt="1481665900942" redirect="true"/>
+  <file name="index.html" crc="202938491" seo="true" mt="1481676639665" redirect="true"/>
 </manifest>
