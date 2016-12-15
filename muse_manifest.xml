@@ -1,0 +1,29 @@
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="dageek.tech" resolutions="1x" timestamp="1481835794854">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="57780952" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="36584860" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="webpro.js" crc="3848665353" ref="index"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
+    <file name="touchswipe.js" crc="404375771" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pexels-photo-large.jpg" crc="4005355680" ref="index"/>
+    <file name="11-u3518-fr.png" crc="400549448" ref="index"/>
+    <file name="pexels-photo-29781-large.jpg" crc="3939858201" ref="index"/>
+    <file name="landscape-nature-clouds-cloudy.jpg" crc="3872063557" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="github-logo-icon-2.png" crc="3823188710" seo="true" ref="index"/>
+    <file name="979d963c.jpg" crc="482073878" ref="index"/>
+  </folder>
+  <file name="index.html" crc="86571236" seo="true" mt="1481835793277" redirect="true"/>
+</manifest>
