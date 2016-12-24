@@ -5,6 +5,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 
+var successaudio = new Audio('sounds/success.mp3');
+var failureaudio = new Audio('sounds/failure.mp3');
+
 $(document).ready(function(){
     $("button").click(function(){
         var id_entry = document.getElementById("myText").value;
@@ -13,8 +16,10 @@ $(document).ready(function(){
             if (data[0] === undefined) {
                 document.getElementById("rcornersName").style.backgroundColor = "rgb(255, 26, 26)";
                 document.getElementById("speaker_id").innerHTML = "INVALID";
+                failureaudio.play();
             } else {
                 document.getElementById("rcornersName").style.backgroundColor = "rgb(51, 204, 51)";
+                successaudio.play();
             }
             window.a=status
             document.getElementById("success").innerHTML = ( status[0] );
