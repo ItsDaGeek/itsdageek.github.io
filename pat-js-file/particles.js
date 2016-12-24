@@ -91,14 +91,14 @@ var pJS = function(tag_id, params){
       detect_on: 'canvas',
       events: {
         onhover: {
-          enable: true,
+          enable: false,
           mode: 'grab'
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push'
         },
-        resize: true
+        resize: false
       },
       modes: {
         grab:{
@@ -799,8 +799,7 @@ var pJS = function(tag_id, params){
       function init(){
         p.opacity_bubble = p.opacity;
         p.radius_bubble = p.radius;
-      }
-
+      } 
       /* mousemove - check ratio */
       if(dist_mouse <= pJS.interactivity.modes.bubble.distance){
 
