@@ -1,0 +1,97 @@
+html {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: Avenir Next, Helvetica, sans-serif;
+}
+
+body {
+      animation: colorchange 60s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 60s; /* Chrome and Safari */
+      background-color: #583399
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #583399;}
+      25%  {background: #CD6A88;}
+      50%  {background: #5E70C9;}
+      75%  {background: #4754C2;}
+      100% {background: #583399;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #583399;}
+      25%  {background: #CD6A88;}
+      50%  {background: #5E70C9;}
+      75%  {background: #4754C2;}
+      100% {background: #583399;}
+    }
+    
+
+h1 {
+    color: blue;
+}
+
+
+p {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.center {
+    text-align: center;
+}
+
+#speaker_id {
+    color: white;
+    text-align: center
+}
+#rcornersName {
+    padding: 1px; 
+    margin: auto; 
+    margin-top: 25px;
+    height: 75px; 
+    background: #ffffff;
+    width: 750px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#rcorners2 {
+    padding: 20px; 
+    margin: auto; 
+    margin-top: 75px
+    height: 350px; 
+    background: #ffffff;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
