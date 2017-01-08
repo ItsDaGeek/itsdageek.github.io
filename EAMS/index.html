@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+
+var successaudio = new Audio('sounds/success.mp3');
+var failureaudio = new Audio('sounds/failure.mp3');
+
+$(document).ready(function(){
+    $("button").click(function(){
+        var id_entry = document.getElementById("myText").value;
+        $.get("https://postgrest.herokuapp.com/sessions?id=eq." + id_entry, function(data, status){
+            document.getElementById("rcornersName").style.backgroundColor = "rgb(255, 255, 255)";
+            if (data[0] === undefined) {
+                document.getElementById("rcornersName").style.backgroundColor = "rgb(255, 26, 26)";
+                document.getElementById("speaker_id").innerHTML = "INVALID";
+                failureaudio.play();
+            } else {
+                document.getElementById("rcornersName").style.backgroundColor = "rgb(51, 204, 51)";
+                successaudio.play();
+            }
+            window.a=status
+            document.getElementById("success").innerHTML = ( status[0] );
+            document.getElementById("id").innerHTML = (JSON.stringify( data[0].id ));
+            document.getElementById("speaker_id").innerHTML = (JSON.stringify( data[0].speaker_id ));
+            document.getElementById("start_time").innerHTML = (JSON.stringify( data[0].start_time ));
+            document.getElementById("end_time").innerHTML = (JSON.stringify( data[0].end_time ));
+            document.getElementById("location").innerHTML = (JSON.stringify( data[0].location ));
+            document.getElementById("session_type").innerHTML = (JSON.stringify( data[0].session_type ));
+        });
+    });
+});
+</script>
+</head>
+<body>
+
+<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+  <iframe frameborder="0" height="100%" width="100%" 
+    src="particle-effect.html">
+  </iframe>
+</div>
+
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news" class="active" >Guest Checkin</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">Connected to EAMS</a></li>
+</ul>
+
+
+
+
+<div id="particles-js"></div>
+<div id="rcornersName">
+
+<h1 id="speaker_id">Welcome to EAMS</h1>
+
+<div id="rcorners2">
+
+<input type="text" id="myText" value="">
+<button>Send</button></input>
+<p>
+    <span>Status: </span>
+    <span id="success"></span>
+</p>
+<p>
+    <span>Registration ID: </span>
+    <span id="id"></span>
+</p>
+<p>
+    <span>Speaker ID: </span>
+    <span id="speaker_id"></span>
+</p>
+<p>
+    <span>Start Time: </span>
+    <span id="start_time"></span>
+</p>
+<p>
+    <span>End Time: </span>
+    <span id="end_time"></span>
+</p>
+<p>
+    <span>Location: </span>
+    <span id="location"></span>
+</p>
+<p>
+    <span>Session Type: </span>
+    <span id="session_type"></span>
+</p>
+</div>
+
+
+
+</body>
+</html>
