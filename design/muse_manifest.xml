@@ -1,0 +1,28 @@
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="dageek.tech" resolutions="1x" timestamp="1498855367580">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="3896655595" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="36584860" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="hclogo.svg" crc="303103775" seo="true" ref="index"/>
+    <file name="hclogo_poster_.png" crc="3911497962" ref="index"/>
+    <file name="pasted image 1200x918.jpg" crc="299119121" seo="true" ref="index"/>
+    <file name="t430blowupartboard 1-crop-u141.png" crc="155190971" ref="index"/>
+    <file name="_mg_0078.jpg" crc="209652880" seo="true" ref="index"/>
+    <file name="hawaiidslr (9 of 13)-crop-u177.jpg" crc="319750934" ref="index"/>
+    <file name="_mg_0035-crop-u187.jpg" crc="328871148" ref="index"/>
+    <file name="chrome_2017-06-30_13-25-25-crop-u197.jpg" crc="4051672072" ref="index"/>
+    <file name="chrome_2017-06-30_13-30-02.jpg" crc="430406614" seo="true" ref="index"/>
+    <file name="chrome_2017-06-30_13-27-27-crop-u202.jpg" crc="3818753299" ref="index"/>
+    <file name="download.jpg" crc="3761641980" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3881858725" seo="true" mt="1498855263288" redirect="true"/>
+</manifest>
