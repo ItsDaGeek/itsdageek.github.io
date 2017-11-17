@@ -1,0 +1,1 @@
+document.body.style.backgroundImage = `url(https://picsum.photos/g/${screen.width}/${screen.height}?random&blur)`;
