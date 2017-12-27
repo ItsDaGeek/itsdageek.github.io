@@ -1,3 +1,0 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/anon/pen/oBXVVz.
-
- This pen is a modification of my previous [Canvas Parallax Skyline](http://codepen.io/jackrugile/pen/qLCuE) pen, only with mountains this time! This one isn't totally optimized yet though. Still having trouble finding exactly when I can reset a point to the end of the canvas, with the least runoff on the edges. Right now I am overshooting both sides a little bit too much.
