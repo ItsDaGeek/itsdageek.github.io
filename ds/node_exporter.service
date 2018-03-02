@@ -6,4 +6,4 @@ Restart=on-failure
 ExecStart=/usr/local/bin/prometheus/node_exporter
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
