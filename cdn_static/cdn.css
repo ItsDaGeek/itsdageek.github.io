@@ -5,7 +5,7 @@ body {
     margin-right: 300px;
     margin-left: 300px;
     background-color: white;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 img {
@@ -29,9 +29,9 @@ img {
     transform: translate(-50%, -50%);
 }
 
-h2 {
-    background-color: #242424;
-    color: white;
+h1 {
+    background-color: whitesmoke;
+    color: #242424;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
