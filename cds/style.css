@@ -17,13 +17,14 @@ h2 {
 }
 
 #time {
+    font-family: 'Avenir Next', sans-serif;
     position: absolute;
     bottom: 0;
     right: 0;
     padding-bottom: 4%;
     padding-right: 6.5%;
     font-size: 115px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #currentDate {
@@ -33,7 +34,6 @@ h2 {
 }
 
 #header {
-    font-family: 'Lato', sans-serif;
     position: absolute;
     top: 0;
     left: 0;
