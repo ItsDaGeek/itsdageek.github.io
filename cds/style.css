@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: black;
+    transition-delay: 1s;
+    transition: background 3s ease-in-out;
+}
+
+h1 {
+    font-size: 115px;
+    line-height: 0px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 0px;
+}
+
+#time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 4%;
+    padding-right: 6.5%;
+    font-size: 115px;
+    font-weight: bold;
+}
+
+#currentDate {
+    font-size: 35px;
+    text-align: right;
+    line-height: 5px
+}
+
+#header {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 3.5%;
+    padding-top: 1.5%;
+    font-size: 92px
+}
