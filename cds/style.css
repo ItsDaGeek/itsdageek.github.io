@@ -1,9 +1,14 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     color: white;
     background-color: black;
     transition-delay: 1s;
     transition: background 3s ease-in-out;
+    background-repeat: no-repeat;
 }
 
 h1 {

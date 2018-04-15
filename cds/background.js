@@ -2,7 +2,7 @@ function background() {
     $.getJSON("https://raw.githubusercontent.com/dconnolly/chromecast-backgrounds/master/backgrounds.json").then(json => {
         var item = json[Math.floor(Math.random() * json.length)];
         var bg = item["url"]
-        document.body.style.backgroundImage = 'url("' + bg + '")';
+        document.body.style.backgroundImage = '-webkit-linear-gradient(bottom, rgb(0,0,0,.9) , transparent), url("' + bg + '")';
     });
 }
 
