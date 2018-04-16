@@ -22,4 +22,4 @@ background()
 
 
 // FOR TESTING WEBKIT
-setInterval(background, 15 * (1000))
+setInterval(background, 90 * (1000))
