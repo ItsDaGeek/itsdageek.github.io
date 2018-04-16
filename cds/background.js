@@ -18,8 +18,8 @@ function background() {
 
 background()
 
-// setInterval(background, 120 * 1000)
+setInterval(background, 90 * (1000))
 
 
 // FOR TESTING WEBKIT
-setInterval(background, 90 * (1000))
+// setInterval(background, 10 * (1000))
