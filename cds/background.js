@@ -12,14 +12,14 @@ function background() {
         var item = json[Math.floor(Math.random() * json.length)];
         var bg = item["url"]
         var color = colors[Math.floor(Math.random() * colors.length)]
-        document.body.style.backgroundImage = '-webkit-linear-gradient(303deg, rgb(' + color["r"] + ',' + color["g"] + ',' + color["b"] + ',0.9), transparent, rgb(0,0,0,.9)), url("' + bg + '")';
+        document.body.style.backgroundImage = 'url("' + bg + '")';
     });
 }
 
 background()
 
-setInterval(background, 120 * 1000)
+// setInterval(background, 120 * 1000)
 
 
 // FOR TESTING WEBKIT
-// setInterval(background, 3 * (1000))
+setInterval(background, 15 * (1000))
