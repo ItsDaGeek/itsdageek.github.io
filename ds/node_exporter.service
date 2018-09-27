@@ -1,9 +1,0 @@
-[Unit]
-Description=node_exporter
-
-[Service]
-Restart=on-failure
-ExecStart=/usr/local/bin/prometheus/node_exporter
-
-[Install]
-WantedBy=default.target
